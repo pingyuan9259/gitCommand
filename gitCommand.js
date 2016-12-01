@@ -31,6 +31,8 @@
     git add -A // 添加所有文件
     git commit -m '<备注信息>' // 提交文件并备注
     git commit -a // 提交所有文件，省去add，省去diff
+    git reset HEAD <文件名> // 放弃本地add操作
+    git checkout . # // 放弃本地所有更改
 
 5. 分支操作：
     git branch <分支名> // 创建分支
